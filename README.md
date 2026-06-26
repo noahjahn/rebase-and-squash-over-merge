@@ -79,6 +79,7 @@ Your branch looks like it was always branched off the latest main.
 
 There are no downsides to using rebasing locally.
 
+Rebasing simplifies resolving conflicts because they are done one commit at time. The idea is meant for you to think about what you would have committed if the code from the current state of the main branch looked like it does when you originally made the change.
 
 ## What does merging do
 
