@@ -21,7 +21,7 @@ Separately you're working on a new feature to add a health check, for example. Y
 * e5e7fd6f - add initial simple health check
 ```
 
-When you merge and squash commits, all three of those commits will be combined into a single commit with one message. You can see how useful that is on a development branch because we don't need to have commit message standards. We don't want to see "wip (end of day commit)" on the mainline version control system. This allows developers to have control over their own branch letting them commit any message they want.
+When you merge and squash commits, all three of those commits will be combined into a single commit with one message. You can see how useful that is on a development branch because we don't need to have commit message standards. We don't want to see "wip (end of day commit)" on the mainline version control system. This allows developers to have control over their own branch in the sense that we don't care what commits are pushed to the branch, what the messages are, etc.
 
 So, instead of seeing this on the mainline (yes, note the merge commit): 
 
@@ -77,7 +77,10 @@ Running `git rebase origin/main` rewrites your commits on top of the new main HE
 
 Your branch looks like it was always branched off the latest main.
 
+There are no downsides to using rebasing locally.
+
 Rebasing simplifies resolving conflicts because they are done one commit at time. The idea is meant for you to think about what you would have committed if the code from the current state of the main branch looked like it does when you originally made the change.
+
 
 ## What does merging do
 
