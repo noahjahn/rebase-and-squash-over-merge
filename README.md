@@ -21,7 +21,7 @@ Separately you're working on a new feature to add a health check, for example. Y
 * e5e7fd6f - add initial simple health check
 ```
 
-When you merge and squash commits, all three of those commits will be combined into a single commit with one message. You can see how useful that is on a development branch because we don't need to have commit message standards. We don't want to see "wip (end of day commit)" on the mainline VCS. This allows developers to have control over their own branch.
+When you merge and squash commits, all three of those commits will be combined into a single commit with one message. You can see how useful that is on a development branch because we don't need to have commit message standards. We don't want to see "wip (end of day commit)" on the mainline version control system. This allows developers to have control over their own branch letting them commit any message they want.
 
 So, instead of seeing this on the mainline (yes, note the merge commit): 
 
